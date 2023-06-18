@@ -1,4 +1,6 @@
-.Start-Button {
-
-
+.Static-Button {
+background-color: black;
+  color: white; 
+  display: flex;
+  position: static;
 }
