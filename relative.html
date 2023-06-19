@@ -10,8 +10,8 @@
     
     .container {
       position: relative;
-      width: 400px;
-      height: 900px;
+      width: 100%;
+      height: 100vh;
       background-color: lightgray;
       overflow-y: scroll;
     }
@@ -68,5 +68,11 @@
     
     <button class="button">Nach oben scrollen</button>
   </div>
+  
+  <script>
+    document.querySelector('.button').addEventListener('click', function() {
+      window.scrollTo(0, 0);
+    });
+  </script>
 </body>
 </html>
