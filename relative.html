@@ -1,19 +1,32 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-  <head>
-     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Buttons</title>
-  </head>
-  <body>
-    <p>Das ist ein Absolute Button!</p>
-<a href="Absolute.html"><button class= "Absolute-Button" {
-
-                         display: flex;
-                         color: black;
-                         background-color: white;
-                         position: absolute;
-                            font-family: 'Rozha One', serif;
-   }>Absolute-Button</button></a>
-  </body>
+<head>
+  <title>Absolut positionierter Button</title>
+  <style>
+    .container {
+      position: relative;
+      width: 400px;
+      height: 300px;
+      background-color: lightgray;
+    }
+    
+    .button {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 10px 20px;
+      background-color: blue;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <button class="button">Absolut positionierter Button</button>
+  </div>
+</body>
 </html>
