@@ -1,6 +1,7 @@
-.Static-Button {
-background-color: black;
-  color: white; 
-  display: flex;
-  position: static;
+body {
+ background-image: url('https://media4.giphy.com/media/aihuG1Li9YrnXkJhpv/giphy.gif?cid=ecf05e47473kiorqriiadcckppuw0seynz8drhqv5zr2seo7&ep=v1_gifs_search&rid=giphy.gif&ct=g');
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
 }
+
